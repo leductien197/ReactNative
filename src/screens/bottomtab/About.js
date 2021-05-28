@@ -8,12 +8,12 @@ const scale = width / 1024
 const About = () => {
   const navigation = useNavigation();
 
-  // const openMenu = () => {
-  //   navigation.openDrawer()
-  // }
+  const openMenu = () => {
+    // navigation.openDrawer()
+  }
   return (
     <View>
-      <Text onPress={()=>navigation.openDrawer()} style={styles.textMenu}>Click to open menu</Text>
+      <Text onPress={openMenu} style={styles.textMenu}>Click to open menu</Text>
     </View>
   )
 }
